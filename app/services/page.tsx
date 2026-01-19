@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     'digital marketing services, social media marketing, SEO services, content marketing, PPC advertising, branding services, web design, Colombo',
 };
 
+// Revalidate every 60 seconds
+export const revalidate = 60;
+
 // TypeScript interface
 interface Service {
   _id: string;
